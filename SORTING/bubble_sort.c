@@ -19,7 +19,6 @@ void bubblesort(int *A, int n)
         {
             if (A[j] > A[j + 1])
             {
-
                 temp = A[j];
                 A[j] = A[j + 1];
                 A[j + 1] = temp;
